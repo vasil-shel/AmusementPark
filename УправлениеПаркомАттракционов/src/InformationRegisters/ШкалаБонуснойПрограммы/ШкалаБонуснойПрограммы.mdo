@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8748d125-c217-4031-9754-4de236739f5f">
+  <producedTypes>
+    <selectionType typeId="3909bf84-846f-4c3d-b724-9179266d04aa" valueTypeId="66c039d5-49d7-4262-a8c3-36f4f93115f5"/>
+    <listType typeId="b639b2ba-cad4-4337-abc6-6e8be11caefe" valueTypeId="93cf24c4-37b4-44f8-8626-8b311591f84d"/>
+    <managerType typeId="614700ab-5a12-48a7-851a-c8e9cb1156dd" valueTypeId="d27f179e-ada7-43d9-86e8-409bf903830c"/>
+    <recordSetType typeId="e146b424-69d7-4c16-b152-33c9ad614cb2" valueTypeId="5a77db02-03f6-4c26-a11c-1fd2f3ae02a9"/>
+    <recordKeyType typeId="b1b0c0dd-a15b-4cba-be9c-1f7ec5852a81" valueTypeId="a0804e2e-2095-4da5-872a-7f1e9623b007"/>
+    <recordType typeId="9cafef98-f70c-405a-a641-098eade5776a" valueTypeId="972debe0-f143-4e31-9b94-a272b2d21529"/>
+    <recordManagerType typeId="acfc5364-6e57-4e3f-88ae-6e7070aefc0f" valueTypeId="26fb0f35-a382-4ae0-8e34-a793a7f80669"/>
+  </producedTypes>
+  <name>ШкалаБонуснойПрограммы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шкала бонусной программы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="9a7209c6-e02f-4e7a-bf00-ac80e458e624">
+    <name>Шкала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шкала</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ШкалаБонуснойПрограммы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+</mdclass:InformationRegister>
