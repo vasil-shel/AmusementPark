@@ -26,6 +26,22 @@
   <registerRecords>InformationRegister.ШкалаБонуснойПрограммы</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="da613f57-5e22-4984-9408-102f45611d02">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="f98749d7-f799-4e69-a51a-d26e13493a53">
     <producedTypes>
       <objectType typeId="6ac10043-ec2d-4e23-a7ba-0b4b33ff1750" valueTypeId="f52f49bd-f5bc-470c-9063-c8bd57f42517"/>

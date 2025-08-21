@@ -152,6 +152,10 @@
     <dataPath xsi:type="form:DataPath">
       <segments>Объект.Клиент</segments>
     </dataPath>
+    <handlers>
+      <event>OnChange</event>
+      <name>КлиентПриИзменении</name>
+    </handlers>
     <extendedTooltip>
       <name>КлиентРасширеннаяПодсказка</name>
       <id>18</id>
@@ -535,13 +539,19 @@
   <commandInterface>
     <navigationPanel>
       <cmiFragmentRecord>
+        <command>AccumulationRegister.АктивныеПосещения.StandardCommand.OpenByRecorder</command>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+      </cmiFragmentRecord>
+      <cmiFragmentRecord>
         <command>AccumulationRegister.Продажи.StandardCommand.OpenByRecorder</command>
         <userVisible>
           <common>true</common>
         </userVisible>
       </cmiFragmentRecord>
       <cmiFragmentRecord>
-        <command>AccumulationRegister.АктивныеПосещения.StandardCommand.OpenByRecorder</command>
+        <command>AccumulationRegister.БонусныеБаллыКлиентов.StandardCommand.OpenByRecorder</command>
         <userVisible>
           <common>true</common>
         </userVisible>
