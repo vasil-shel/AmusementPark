@@ -291,6 +291,10 @@
           <horizontalAlign>Left</horizontalAlign>
           <autoFill>true</autoFill>
         </autoCommandBar>
+        <handlers>
+          <event>Drag</event>
+          <name>ПозицииПродажиПеретаскивание</name>
+        </handlers>
         <searchStringAddition>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -449,6 +453,7 @@
         <initialListView>Auto</initialListView>
         <horizontalStretch>true</horizontalStretch>
         <verticalStretch>true</verticalStretch>
+        <enableDrag>true</enableDrag>
         <fileDragMode>AsFileRef</fileDragMode>
         <searchStringLocation>None</searchStringLocation>
         <viewStatusLocation>None</viewStatusLocation>
@@ -669,6 +674,10 @@
           <event>Selection</event>
           <name>СписокНоменклатурыВыбор</name>
         </handlers>
+        <handlers>
+          <event>DragStart</event>
+          <name>СписокНоменклатурыНачалоПеретаскивания</name>
+        </handlers>
         <searchStringAddition>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -811,7 +820,6 @@
           <autoFill>true</autoFill>
         </contextMenu>
         <representation>HierarchicalList</representation>
-        <changeRowSet>true</changeRowSet>
         <changeRowOrder>true</changeRowOrder>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -828,6 +836,7 @@
         <initialListView>Auto</initialListView>
         <horizontalStretch>true</horizontalStretch>
         <verticalStretch>true</verticalStretch>
+        <enableStartDrag>true</enableStartDrag>
         <fileDragMode>AsFileRef</fileDragMode>
         <rowPictureDataPath xsi:type="form:DataPath">
           <segments>СписокНоменклатуры.DefaultPicture</segments>
