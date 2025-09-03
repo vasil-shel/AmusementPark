@@ -83,6 +83,10 @@
           <dataPath xsi:type="form:DataPath">
             <segments>ПозицииПродажи.Номенклатура</segments>
           </dataPath>
+          <handlers>
+            <event>OnChange</event>
+            <name>ПозицииПродажиНоменклатураПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>ПозицииПродажиНоменклатураРасширеннаяПодсказка</name>
             <id>19</id>
@@ -298,6 +302,10 @@
         <handlers>
           <event>DragCheck</event>
           <name>ПозицииПродажиПроверкаПеретаскивания</name>
+        </handlers>
+        <handlers>
+          <event>OnChange</event>
+          <name>ПозицииПродажиПриИзменении</name>
         </handlers>
         <searchStringAddition>
           <visible>true</visible>
@@ -1067,6 +1075,38 @@
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
+  <items xsi:type="form:Button">
+    <name>ЗаписатьПродажу</name>
+    <id>68</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <extendedTooltip>
+      <name>ЗаписатьПродажуРасширеннаяПодсказка</name>
+      <id>69</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualButton</type>
+    <commandName>Form.Command.ЗаписатьПродажу</commandName>
+    <representation>Auto</representation>
+    <defaultButton>true</defaultButton>
+    <autoMaxWidth>true</autoMaxWidth>
+    <autoMaxHeight>true</autoMaxHeight>
+    <placementArea>UserCmds</placementArea>
+    <representationInContextMenu>Auto</representationInContextMenu>
+  </items>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
@@ -1335,6 +1375,23 @@
       </parameters>
     </extInfo>
   </attributes>
+  <formCommands>
+    <name>ЗаписатьПродажу</name>
+    <title>
+      <key>ru</key>
+      <value>Записать продажу</value>
+    </title>
+    <id>1</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ЗаписатьПродажу</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>
