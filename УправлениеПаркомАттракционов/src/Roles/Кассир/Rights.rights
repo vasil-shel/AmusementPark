@@ -62,6 +62,13 @@
 		</right>
 	</object>
 	<object>
+		<name>AccumulationRegister.Продажи</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.Аттракционы</name>
 		<right>
 			<name>Read</name>
