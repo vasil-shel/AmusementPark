@@ -20,7 +20,7 @@
   <fullTextSearch>Use</fullTextSearch>
   <listPresentation>
     <key>ru</key>
-    <value>Установки цен номенклатуры</value>
+    <value>Список установок цен номенклатуры</value>
   </listPresentation>
   <numberType>String</numberType>
   <numberLength>9</numberLength>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="11a34f11-a992-47b0-b66d-5ee954bf76ac">
+  <producedTypes>
+    <objectType typeId="db796ecd-7245-4af4-a5fd-352ff8964f46" valueTypeId="8e333894-5008-4462-9b06-7b4ea637b3b1"/>
+  </producedTypes>
+  <name>ГенерацияТестовыхДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Генерация тестовых данных</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="71569cbe-7b5b-42b1-9893-5c8d7cf74990"/>
+  <defaultForm>ExternalDataProcessor.ГенерацияТестовыхДанных.Form.Форма</defaultForm>
+  <forms uuid="1774721d-b42a-42e8-bbff-9f6bafd0a5ce">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="7b161b26-1ab9-4abf-87e2-69209032559f">
+    <name>Случайныефио</name>
+    <synonym>
+      <key>ru</key>
+      <value>Случайныефио</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:ExternalDataProcessor>
