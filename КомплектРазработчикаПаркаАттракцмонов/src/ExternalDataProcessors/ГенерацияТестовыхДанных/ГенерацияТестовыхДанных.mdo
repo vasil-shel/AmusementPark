@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="11a34f11-a992-47b0-b66d-5ee954bf76ac">
+<mdclass:ExternalDataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="11a34f11-a992-47b0-b66d-5ee954bf76ac">
   <producedTypes>
     <objectType typeId="db796ecd-7245-4af4-a5fd-352ff8964f46" valueTypeId="8e333894-5008-4462-9b06-7b4ea637b3b1"/>
   </producedTypes>
@@ -10,6 +10,92 @@
   </synonym>
   <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="71569cbe-7b5b-42b1-9893-5c8d7cf74990"/>
   <defaultForm>ExternalDataProcessor.ГенерацияТестовыхДанных.Form.Форма</defaultForm>
+  <attributes uuid="a764dbab-ff51-446b-a6c8-f997d4987ee4">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <tabularSections uuid="5e1d0709-edca-4795-b366-52a9657879f8">
+    <producedTypes>
+      <objectType typeId="c7e93ce5-aff2-46e1-a4ea-7e53b6a80c0c" valueTypeId="411e1c91-e7a0-4f2a-92ed-832d23d0df9a"/>
+      <rowType typeId="9c4f49d8-106a-4256-b010-68990e521cf9" valueTypeId="656eaba5-df12-4c3c-8b82-834fc1adedf9"/>
+    </producedTypes>
+    <name>ДанныеПосещений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные посещений</value>
+    </synonym>
+    <attributes uuid="5fda1057-bfec-46a8-8807-95f9386b8543">
+      <name>Дата</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="bf484435-4892-4e0a-854e-505c8d6ecd43">
+      <name>Посетитель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Посетитель</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Клиенты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="15e21ccb-729f-4fa4-8269-f100c3e1cc33">
+      <name>Аттракцион</name>
+      <synonym>
+        <key>ru</key>
+        <value>Аттракцион</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Аттракционы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="84dbed77-07c5-4b9e-9ced-ec5f83e1d199">
+      <name>Основание</name>
+      <synonym>
+        <key>ru</key>
+        <value>Основание</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.ПродажаБилета</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="cabd860e-d0f3-446a-b7d6-3cf774dc573f">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
   <forms uuid="1774721d-b42a-42e8-bbff-9f6bafd0a5ce">
     <name>Форма</name>
     <synonym>
@@ -20,10 +106,10 @@
     <usePurposes>MobileDevice</usePurposes>
   </forms>
   <templates uuid="7b161b26-1ab9-4abf-87e2-69209032559f">
-    <name>Случайныефио</name>
+    <name>СлучайныеФИО</name>
     <synonym>
       <key>ru</key>
-      <value>Случайныефио</value>
+      <value>Случайные ФИО</value>
     </synonym>
     <templateType>TextDocument</templateType>
   </templates>
