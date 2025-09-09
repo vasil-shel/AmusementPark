@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c801e21d-3a5c-47fa-9ab7-5f125af12145">
+  <producedTypes>
+    <objectType typeId="198cfad5-abd0-4b27-8143-0abea556a535" valueTypeId="a32c67bc-dfc8-45de-9c49-a97252afee2d"/>
+    <managerType typeId="071636f3-1f23-4ba3-be4f-50d58f40b2c2" valueTypeId="ce0b5982-fa34-4936-8008-fb0856cb2562"/>
+  </producedTypes>
+  <name>ПланированиеОтсутствия</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планирование отсутствия</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПланированиеОтсутствия.Form.Форма</defaultForm>
+  <forms uuid="d3b3a7f5-f89d-4499-a90d-1cd9a9f121b0">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
