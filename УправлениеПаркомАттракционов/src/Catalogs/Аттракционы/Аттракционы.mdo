@@ -70,6 +70,24 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="8f8598c4-65bb-49f0-911d-690efab78d7b">
+    <name>РасширениеФайлаФото</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расширение файла фото</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>5</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="f0bdde39-7883-4703-a3e3-734b4fa267aa">
     <name>ФормаЭлемента</name>
     <synonym>
