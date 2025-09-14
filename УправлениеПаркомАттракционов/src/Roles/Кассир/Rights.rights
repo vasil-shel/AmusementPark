@@ -142,7 +142,7 @@
 		</right>
 	</object>
 	<object>
-		<name>SessionParameter.ТекущийПользователь</name>
+		<name>SessionParameter.па_ТекущийПользователь</name>
 		<right>
 			<name>Get</name>
 			<value>true</value>
@@ -160,7 +160,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Пользователи</name>
+		<name>Catalog.па_Пользователи</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>

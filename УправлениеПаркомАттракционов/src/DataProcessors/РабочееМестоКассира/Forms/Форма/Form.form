@@ -435,12 +435,12 @@
           <autoFill>true</autoFill>
         </autoCommandBar>
         <handlers>
-          <event>Drag</event>
-          <name>ПозицииПродажиПеретаскивание</name>
-        </handlers>
-        <handlers>
           <event>DragCheck</event>
           <name>ПозицииПродажиПроверкаПеретаскивания</name>
+        </handlers>
+        <handlers>
+          <event>Drag</event>
+          <name>ПозицииПродажиПеретаскивание</name>
         </handlers>
         <handlers>
           <event>OnChange</event>
@@ -659,7 +659,6 @@
           <segments>СписокНоменклатуры</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
-        <excludedCommands>CreateFolder</excludedCommands>
         <items xsi:type="form:FormField">
           <name>СписокНоменклатурыНоменклатура</name>
           <id>59</id>
@@ -1561,16 +1560,16 @@
       <common>true</common>
     </edit>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>СписокНоменклатуры.ЭтоГруппа</segments>
+      <segments>СписокНоменклатуры.Номенклатура</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>СписокНоменклатуры.Ссылка</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>СписокНоменклатуры.Цена</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>СписокНоменклатуры.Номенклатура</segments>
-    </notDefaultUseAlwaysAttributes>
-    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>СписокНоменклатуры.Ссылка</segments>
+      <segments>СписокНоменклатуры.ЭтоГруппа</segments>
     </notDefaultUseAlwaysAttributes>
     <extInfo xsi:type="form:DynamicListExtInfo">
       <queryText>ВЫБРАТЬ
@@ -1656,6 +1655,7 @@
           <types>Date</types>
           <dateQualifiers/>
         </valueType>
+        <values xsi:type="core:UndefinedValue"/>
       </parameters>
     </extInfo>
   </attributes>

@@ -7,7 +7,7 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>Catalog.Пользователи</content>
+  <content>Catalog.па_Пользователи</content>
   <content>Document.ПланированиеОтсутствия</content>
   <content>DataProcessor.ПланированиеОтсутствия</content>
   <content>InformationRegister.ПлановыеОтсутствия</content>

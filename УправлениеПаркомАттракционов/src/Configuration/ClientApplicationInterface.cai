@@ -2,7 +2,7 @@
 <cai:ClientApplicationInterface xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cai="http://g5.1c.ru/v8/dt/cai">
   <top xsi:type="cai:CaiPanel" id="dd3c5821-64ea-4831-b5a8-1de98a7bcf69" name="OpenedPanel"/>
   <left xsi:type="cai:CaiPanel" id="4c083245-60b3-4af7-832e-13e0d7a82b65" name="SectionPanel" displayType="PictureAndText"/>
-  <unset id="427f8bbc-6110-4b21-b02b-9158751f4216" name="FavoritePanel"/>
-  <unset id="46350e36-a4c7-473e-a6b9-b19bdf5b3ebd" name="HistoryPanel"/>
-  <unset id="3062afa5-48d5-4fe0-858c-b0e7c7785f4a" name="FunctionsPanel"/>
+  <unset id="13322b22-3960-4d68-93a6-fe2dd7f28ca3" name="FavoritePanel"/>
+  <unset id="c933ac92-92cd-459d-81cc-e0c8a83ced99" name="HistoryPanel"/>
+  <unset id="b2735bd3-d822-4430-ba59-c9e869693b24" name="FunctionsPanel"/>
 </cai:ClientApplicationInterface>

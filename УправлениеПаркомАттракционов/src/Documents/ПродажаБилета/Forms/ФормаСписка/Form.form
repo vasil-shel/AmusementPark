@@ -307,7 +307,7 @@
           <role>Role.ОператорАттракциона</role>
         </for>
         <for>
-          <role>Role.ПолныеПрава</role>
+          <role>Role.па_ПолныеПрава</role>
         </for>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
