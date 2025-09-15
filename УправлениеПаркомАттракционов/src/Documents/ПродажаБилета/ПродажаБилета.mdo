@@ -274,18 +274,10 @@
     </attributes>
   </tabularSections>
   <templates uuid="d9e158b5-3c30-4055-a39d-4ae02d12359a">
-    <name>Билет</name>
+    <name>ПФ_MXL_Билет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Билет</value>
+    </synonym>
   </templates>
-  <commands uuid="730bc2af-c045-4506-8c09-7f57cb33d29f">
-    <name>Билет</name>
-    <group>FormCommandBarImportant</group>
-    <commandParameterType>
-      <types>DocumentRef.ПродажаБилета</types>
-    </commandParameterType>
-    <parameterUseMode>Multiple</parameterUseMode>
-    <representation>Auto</representation>
-    <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.Print</picture>
-    </picture>
-  </commands>
 </mdclass:Document>
