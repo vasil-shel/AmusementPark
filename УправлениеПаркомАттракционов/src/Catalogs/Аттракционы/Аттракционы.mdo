@@ -103,6 +103,23 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="1016e798-856b-4922-8143-bf93b86e26bc">
+    <name>ФотоПеренесено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фото перенесено</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="f0bdde39-7883-4703-a3e3-734b4fa267aa">
     <name>ФормаЭлемента</name>
     <synonym>
