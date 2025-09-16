@@ -54,7 +54,7 @@
     <titleLocation>None</titleLocation>
     <items xsi:type="form:FormField">
       <name>ЕстьФайлы</name>
-      <id>34</id>
+      <id>28</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -66,7 +66,7 @@
       <titleLocation>None</titleLocation>
       <extendedTooltip>
         <name>ЕстьФайлыРасширеннаяПодсказка</name>
-        <id>36</id>
+        <id>30</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -81,7 +81,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>ЕстьФайлыКонтекстноеМеню</name>
-        <id>35</id>
+        <id>29</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -109,7 +109,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>Номер</name>
+      <name>Код</name>
       <id>16</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -117,11 +117,11 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.Номер</segments>
+        <segments>Список.Код</segments>
       </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
-        <name>НомерРасширеннаяПодсказка</name>
+        <name>КодРасширеннаяПодсказка</name>
         <id>18</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -136,7 +136,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>НомерКонтекстноеМеню</name>
+        <name>КодКонтекстноеМеню</name>
         <id>17</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -156,7 +156,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>Дата</name>
+      <name>Наименование</name>
       <id>19</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -164,10 +164,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.Дата</segments>
+        <segments>Список.Наименование</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ДатаРасширеннаяПодсказка</name>
+        <name>НаименованиеРасширеннаяПодсказка</name>
         <id>21</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -182,7 +182,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ДатаКонтекстноеМеню</name>
+        <name>НаименованиеКонтекстноеМеню</name>
         <id>20</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -202,57 +202,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>Клиент</name>
-      <id>22</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.Клиент</segments>
-      </dataPath>
-      <extendedTooltip>
-        <name>КлиентРасширеннаяПодсказка</name>
-        <id>24</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <contextMenu>
-        <name>КлиентКонтекстноеМеню</name>
-        <id>23</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <autoFill>true</autoFill>
-      </contextMenu>
-      <type>InputField</type>
-      <editMode>Enter</editMode>
-      <showInHeader>true</showInHeader>
-      <headerHorizontalAlign>Left</headerHorizontalAlign>
-      <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:InputFieldExtInfo">
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <wrap>true</wrap>
-        <chooseType>true</chooseType>
-        <typeDomainEnabled>true</typeDomainEnabled>
-        <textEdit>true</textEdit>
-      </extInfo>
-    </items>
-    <items xsi:type="form:FormField">
-      <name>БаллыКСписанию</name>
+      <name>ВидАттракциона</name>
       <id>25</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -260,10 +210,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.БаллыКСписанию</segments>
+        <segments>Список.ВидАттракциона</segments>
       </dataPath>
       <extendedTooltip>
-        <name>БаллыКСписаниюРасширеннаяПодсказка</name>
+        <name>ВидАттракционаРасширеннаяПодсказка</name>
         <id>27</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -278,7 +228,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>БаллыКСписаниюКонтекстноеМеню</name>
+        <name>ВидАттракционаКонтекстноеМеню</name>
         <id>26</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -302,77 +252,17 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>СуммаДокумента</name>
-      <id>28</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.СуммаДокумента</segments>
-      </dataPath>
-      <extendedTooltip>
-        <name>СуммаДокументаРасширеннаяПодсказка</name>
-        <id>30</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <contextMenu>
-        <name>СуммаДокументаКонтекстноеМеню</name>
-        <id>29</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <autoFill>true</autoFill>
-      </contextMenu>
-      <type>InputField</type>
-      <editMode>Enter</editMode>
-      <showInHeader>true</showInHeader>
-      <headerHorizontalAlign>Left</headerHorizontalAlign>
-      <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:InputFieldExtInfo">
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <wrap>true</wrap>
-        <chooseType>true</chooseType>
-        <typeDomainEnabled>true</typeDomainEnabled>
-        <textEdit>true</textEdit>
-      </extInfo>
-    </items>
-    <items xsi:type="form:FormField">
       <name>Ссылка</name>
-      <id>31</id>
+      <id>22</id>
       <visible>true</visible>
       <enabled>true</enabled>
-      <userVisible>
-        <for>
-          <role>Role.Кассир</role>
-        </for>
-        <for>
-          <role>Role.ОператорАттракциона</role>
-        </for>
-        <for>
-          <role>Role.па_ПолныеПрава</role>
-        </for>
-      </userVisible>
+      <userVisible/>
       <dataPath xsi:type="form:DataPath">
         <segments>Список.Ссылка</segments>
       </dataPath>
       <extendedTooltip>
         <name>СсылкаРасширеннаяПодсказка</name>
-        <id>33</id>
+        <id>24</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -387,7 +277,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>СсылкаКонтекстноеМеню</name>
-        <id>32</id>
+        <id>23</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -420,10 +310,6 @@
       </userVisible>
       <horizontalAlign>Left</horizontalAlign>
     </autoCommandBar>
-    <handlers>
-      <event>OnActivateRow</event>
-      <name>СписокПриАктивизацииСтроки</name>
-    </handlers>
     <searchStringAddition>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -613,10 +499,6 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
-  <handlers>
-    <event>OnCreateAtServer</event>
-    <name>ПриСозданииНаСервере</name>
-  </handlers>
   <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
@@ -644,20 +526,17 @@
     <main>true</main>
     <extInfo xsi:type="form:DynamicListExtInfo">
       <queryText>ВЫБРАТЬ
-	ПродажаБилета.Ссылка,
-	ПродажаБилета.ПометкаУдаления,
-	ПродажаБилета.Номер,
-	ПродажаБилета.Дата,
-	ПродажаБилета.Проведен,
-	ПродажаБилета.УдалитьНоменклатура,
-	ПродажаБилета.СуммаДокумента,
-	ПродажаБилета.Ответственный,
-	ПродажаБилета.Комментарий,
-	ПродажаБилета.Клиент,
-	ПродажаБилета.БаллыКСписанию,
-	ПродажаБилета.УдалитьЦена,
-	ПродажаБилета.ПозицииПродажи.*,
-	ПродажаБилета.МоментВремени,
+	Аттракционы.Ссылка,
+	Аттракционы.ПометкаУдаления,
+	Аттракционы.Код,
+	Аттракционы.Наименование,
+	Аттракционы.ВидАттракциона,
+	Аттракционы.УдалитьФото,
+	Аттракционы.РасширениеФайлаФото,
+	Аттракционы.Фото,
+	Аттракционы.ФотоПеренесено,
+	Аттракционы.Предопределенный,
+	Аттракционы.ИмяПредопределенныхДанных,
 	ВЫБОР
 		КОГДА НаличиеФайлов.ЕстьФайлы ЕСТЬ NULL
 			ТОГДА 0
@@ -666,10 +545,10 @@
 		ИНАЧЕ 0
 	КОНЕЦ КАК ЕстьФайлы
 ИЗ
-	Документ.ПродажаБилета КАК ПродажаБилета
+	Справочник.Аттракционы КАК Аттракционы
 		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.НаличиеФайлов КАК НаличиеФайлов
-		ПО ПродажаБилета.Ссылка = НаличиеФайлов.ОбъектСФайлами</queryText>
-      <mainTable>Document.ПродажаБилета</mainTable>
+		ПО Аттракционы.Ссылка = НаличиеФайлов.ОбъектСФайлами</queryText>
+      <mainTable>Catalog.Аттракционы</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <customQuery>true</customQuery>
@@ -684,76 +563,40 @@
         <field>ПометкаУдаления</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Номер</dataPath>
-        <field>Номер</field>
+        <dataPath>Код</dataPath>
+        <field>Код</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Дата</dataPath>
-        <field>Дата</field>
+        <dataPath>Наименование</dataPath>
+        <field>Наименование</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Проведен</dataPath>
-        <field>Проведен</field>
+        <dataPath>Предопределенный</dataPath>
+        <field>Предопределенный</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>МоментВремени</dataPath>
-        <field>МоментВремени</field>
+        <dataPath>ИмяПредопределенныхДанных</dataPath>
+        <field>ИмяПредопределенныхДанных</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>УдалитьНоменклатура</dataPath>
-        <field>УдалитьНоменклатура</field>
+        <dataPath>ВидАттракциона</dataPath>
+        <field>ВидАттракциона</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>СуммаДокумента</dataPath>
-        <field>СуммаДокумента</field>
+        <dataPath>УдалитьФото</dataPath>
+        <field>УдалитьФото</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Ответственный</dataPath>
-        <field>Ответственный</field>
+        <dataPath>РасширениеФайлаФото</dataPath>
+        <field>РасширениеФайлаФото</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Комментарий</dataPath>
-        <field>Комментарий</field>
+        <dataPath>Фото</dataPath>
+        <field>Фото</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>Клиент</dataPath>
-        <field>Клиент</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>БаллыКСписанию</dataPath>
-        <field>БаллыКСписанию</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>УдалитьЦена</dataPath>
-        <field>УдалитьЦена</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ПозицииПродажи.Ссылка</dataPath>
-        <field>ПозицииПродажи.Ссылка</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ПозицииПродажи.НомерСтроки</dataPath>
-        <field>ПозицииПродажи.НомерСтроки</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ПозицииПродажи.Номенклатура</dataPath>
-        <field>ПозицииПродажи.Номенклатура</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ПозицииПродажи.Цена</dataPath>
-        <field>ПозицииПродажи.Цена</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ПозицииПродажи.Количество</dataPath>
-        <field>ПозицииПродажи.Количество</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
-        <dataPath>ПозицииПродажи.Сумма</dataPath>
-        <field>ПозицииПродажи.Сумма</field>
-      </fields>
-      <fields xsi:type="schema:DataCompositionSchemaNestedDataSet">
-        <dataPath>ПозицииПродажи</dataPath>
-        <field>ПозицииПродажи</field>
+        <dataPath>ФотоПеренесено</dataPath>
+        <field>ФотоПеренесено</field>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">
         <dataPath>ЕстьФайлы</dataPath>

@@ -39,6 +39,7 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Аттракционы.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Аттракционы.Form.ФормаСписка</defaultListForm>
   <attributes uuid="cc878463-6394-41ff-a998-4230fc45456f">
     <name>ВидАттракциона</name>
     <synonym>
@@ -125,6 +126,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b11d446c-fa1b-4f37-81e7-3b97d0589dfb">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
