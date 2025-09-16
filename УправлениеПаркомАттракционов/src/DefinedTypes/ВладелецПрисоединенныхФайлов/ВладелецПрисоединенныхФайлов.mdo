@@ -20,5 +20,9 @@
     <types>CatalogRef.ШаблоныСообщений</types>
     <types>DocumentRef.СообщениеSMS</types>
     <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
+    <types>DocumentRef.ПродажаБилета</types>
+    <types>DocumentRef.УстановкаЦенНоменклатуры</types>
+    <types>CatalogRef.Клиенты</types>
+    <types>CatalogRef.Аттракционы</types>
   </type>
 </mdclass:DefinedType>

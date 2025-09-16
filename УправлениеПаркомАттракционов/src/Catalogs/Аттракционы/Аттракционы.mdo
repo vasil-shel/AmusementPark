@@ -56,10 +56,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="ec4ecf5c-8af0-449e-a55f-254138468b63">
-    <name>Фото</name>
+    <name>УдалитьФото</name>
     <synonym>
       <key>ru</key>
-      <value>Фото</value>
+      <value>(Не использовать) Фото</value>
     </synonym>
     <type>
       <types>ValueStorage</types>
@@ -81,6 +81,21 @@
       <stringQualifiers>
         <length>5</length>
       </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2b3bab5f-dc6c-4d47-89d9-d47b76cac3f9">
+    <name>Фото</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фото</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.АттракционыПрисоединенныеФайлы</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

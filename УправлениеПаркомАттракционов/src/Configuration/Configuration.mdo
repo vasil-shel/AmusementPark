@@ -1574,6 +1574,7 @@
   <eventSubscriptions>EventSubscription.ОбработкаПроверкиЗаполненияПрисоединенногоФайла</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ОпределитьФормуПрисоединенногоФайлаВзаимодействия</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ОпределитьФормуПрисоединенногоФайлаМЧД</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ОпределитьФормуПрисоединенногоФайлаПА</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ОпределитьФормуПрисоединенногоФайлаШаблоныСообщений</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ОтключитьАвтоматическуюСинхронизациюДанных</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ОтключитьИспользованиеПланаОбмена</eventSubscriptions>
@@ -1618,6 +1619,7 @@
   <eventSubscriptions>EventSubscription.УстановитьПометкуУдаленияЗадач</eventSubscriptions>
   <eventSubscriptions>EventSubscription.УстановитьПометкуУдаленияПрисоединенныхФайлов</eventSubscriptions>
   <eventSubscriptions>EventSubscription.УстановитьПометкуУдаленияПрисоединенныхФайловДокументовВзаимодействия</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.УстановитьПометкуУдаленияПрисоединенныхФайловДокументовПА</eventSubscriptions>
   <eventSubscriptions>EventSubscription.УстановитьПрефиксИнформационнойБазыИОрганизацииНомеруДокументаЗащитаПДн</eventSubscriptions>
   <eventSubscriptions>EventSubscription.УстановитьСнятьПометкуУдаленияЗаметок</eventSubscriptions>
   <eventSubscriptions>EventSubscription.УстановитьСтатусИзмененияПометкиУдаленияПользователя</eventSubscriptions>
@@ -2165,6 +2167,7 @@
   <commonForms>CommonForm.ФормаПоиска</commonForms>
   <commonForms>CommonForm.ЭлектроннаяПодпись</commonForms>
   <catalogs>Catalog.Аттракционы</catalogs>
+  <catalogs>Catalog.АттракционыПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.ВариантыОтветовАнкет</catalogs>
   <catalogs>Catalog.ВариантыОтчетов</catalogs>
@@ -2192,6 +2195,7 @@
   <catalogs>Catalog.Календари</catalogs>
   <catalogs>Catalog.КлассификаторБанков</catalogs>
   <catalogs>Catalog.Клиенты</catalogs>
+  <catalogs>Catalog.КлиентыПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.КлючевыеОперации</catalogs>
   <catalogs>Catalog.КлючиДоступа</catalogs>
   <catalogs>Catalog.МакетыПечатныхФорм</catalogs>
@@ -2215,6 +2219,7 @@
   <catalogs>Catalog.ПредопределенныеВариантыОтчетов</catalogs>
   <catalogs>Catalog.ПредопределенныеВариантыОтчетовРасширений</catalogs>
   <catalogs>Catalog.ПрограммыЭлектроннойПодписиИШифрования</catalogs>
+  <catalogs>Catalog.ПродажаБилетаПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.ПроизводственныеКалендари</catalogs>
   <catalogs>Catalog.ПрофилиГруппДоступа</catalogs>
   <catalogs>Catalog.ПрофилиКлючевыхОпераций</catalogs>
@@ -2229,6 +2234,7 @@
   <catalogs>Catalog.СценарииОбменовДанными</catalogs>
   <catalogs>Catalog.ТелефонныйЗвонокПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.ТомаХраненияФайлов</catalogs>
+  <catalogs>Catalog.УстановкаЦенНоменклатурыПрисоединенныеФайлы</catalogs>
   <catalogs>Catalog.УчетныеЗаписиDSS</catalogs>
   <catalogs>Catalog.УчетныеЗаписиСинхронизацииФайлов</catalogs>
   <catalogs>Catalog.УчетныеЗаписиЭлектроннойПочты</catalogs>

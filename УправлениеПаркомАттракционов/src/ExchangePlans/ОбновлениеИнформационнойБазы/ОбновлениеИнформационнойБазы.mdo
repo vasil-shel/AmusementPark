@@ -662,6 +662,9 @@
     <mdObject>InformationRegister.МашиночитаемыеДоверенностиСтатусы</mdObject>
   </content>
   <content>
+    <mdObject>Catalog.АттракционыПрисоединенныеФайлы</mdObject>
+  </content>
+  <content>
     <mdObject>Constant.СоздаватьЭлектронныеПодписиНаСервере</mdObject>
   </content>
   <content>
@@ -786,6 +789,7 @@
   </content>
   <content>
     <mdObject>Catalog.ДополнительныеОтчетыИОбработки</mdObject>
+    <autoRecord>Allow</autoRecord>
   </content>
   <content>
     <mdObject>Catalog.ВнешниеПользователи</mdObject>
@@ -846,6 +850,9 @@
   </content>
   <content>
     <mdObject>Constant.КаталогСообщенийОбменаДаннымиДляLinux</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ПродажаБилетаПрисоединенныеФайлы</mdObject>
   </content>
   <content>
     <mdObject>Constant.СведенияОБлокируемыхОбъектах</mdObject>
@@ -1010,6 +1017,9 @@
     <mdObject>InformationRegister.НастройкиВариантовОтчетов</mdObject>
   </content>
   <content>
+    <mdObject>Catalog.КлиентыПрисоединенныеФайлы</mdObject>
+  </content>
+  <content>
     <mdObject>Catalog.СообщениеSMSПрисоединенныеФайлы</mdObject>
   </content>
   <content>
@@ -1077,6 +1087,9 @@
   </content>
   <content>
     <mdObject>Constant.ОграничиватьДоступНаУровнеЗаписей</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.УстановкаЦенНоменклатурыПрисоединенныеФайлы</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.АдресныеОбъекты</mdObject>

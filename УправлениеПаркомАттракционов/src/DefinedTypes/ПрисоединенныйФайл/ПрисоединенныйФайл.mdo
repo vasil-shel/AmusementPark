@@ -19,5 +19,9 @@
     <types>CatalogRef.ВерсииФайлов</types>
     <types>CatalogRef.ТелефонныйЗвонокПрисоединенныеФайлы</types>
     <types>CatalogRef.ШаблоныСообщенийПрисоединенныеФайлы</types>
+    <types>CatalogRef.ПродажаБилетаПрисоединенныеФайлы</types>
+    <types>CatalogRef.УстановкаЦенНоменклатурыПрисоединенныеФайлы</types>
+    <types>CatalogRef.КлиентыПрисоединенныеФайлы</types>
+    <types>CatalogRef.АттракционыПрисоединенныеФайлы</types>
   </type>
 </mdclass:DefinedType>

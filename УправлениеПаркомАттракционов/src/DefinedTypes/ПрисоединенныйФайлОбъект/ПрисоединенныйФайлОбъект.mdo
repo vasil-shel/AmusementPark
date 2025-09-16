@@ -19,5 +19,8 @@
     <types>CatalogObject.ЭлектронноеПисьмоИсходящееПрисоединенныеФайлы</types>
     <types>CatalogObject.ЗапланированноеВзаимодействиеПрисоединенныеФайлы</types>
     <types>CatalogObject.ЭлектронноеПисьмоВходящееПрисоединенныеФайлы</types>
+    <types>CatalogObject.ПродажаБилетаПрисоединенныеФайлы</types>
+    <types>CatalogObject.КлиентыПрисоединенныеФайлы</types>
+    <types>CatalogObject.АттракционыПрисоединенныеФайлы</types>
   </type>
 </mdclass:DefinedType>
