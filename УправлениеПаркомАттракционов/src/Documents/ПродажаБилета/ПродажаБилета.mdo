@@ -280,4 +280,11 @@
       <value>Билет</value>
     </synonym>
   </templates>
+  <templates uuid="1fafd205-d8d6-41e0-a4c9-f907d4f54133">
+    <name>ПФ_MXL_Реклама</name>
+    <synonym>
+      <key>ru</key>
+      <value>Билет</value>
+    </synonym>
+  </templates>
 </mdclass:Document>

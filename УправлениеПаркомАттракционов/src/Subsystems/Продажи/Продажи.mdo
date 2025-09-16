@@ -14,7 +14,6 @@
   <content>Document.УстановкаЦенНоменклатуры</content>
   <content>Document.ШкалаБонуснойПрограммы</content>
   <content>Enum.ВидНоменклатуры</content>
-  <content>Report.ПродажиПоАттракционам</content>
   <content>DataProcessor.ВыгрузкаНаСайт</content>
   <content>DataProcessor.РабочееМестоКассира</content>
   <content>InformationRegister.ШкалаБонуснойПрограммы</content>
@@ -23,4 +22,5 @@
   <content>AccumulationRegister.Продажи</content>
   <content>AccumulationRegister.АктивныеПосещения</content>
   <content>Role.Кассир</content>
+  <content>CommonCommand.ОтчетыПоПродажам</content>
 </mdclass:Subsystem>

@@ -19,7 +19,7 @@
   <defaultRoles>Role.АдминистраторСистемы</defaultRoles>
   <defaultRoles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</defaultRoles>
   <vendor>Фирма 1С</vendor>
-  <version>1.0.1.2</version>
+  <version>1.0.1.3</version>
   <reportsVariantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</reportsVariantsStorage>
   <defaultReportForm>CommonForm.ФормаОтчета</defaultReportForm>
   <defaultReportVariantForm>CommonForm.ФормаВариантаОтчета</defaultReportVariantForm>
@@ -1826,6 +1826,7 @@
   <commonCommands>CommonCommand.АрхивСообщенийОбменов</commonCommands>
   <commonCommands>CommonCommand.ВремяВПриложении</commonCommands>
   <commonCommands>CommonCommand.ВсеФайлы</commonCommands>
+  <commonCommands>CommonCommand.ГлавныеОтчеты</commonCommands>
   <commonCommands>CommonCommand.ДобавитьПользователейСервиса</commonCommands>
   <commonCommands>CommonCommand.ДополнительныеОбработкиАдминистрирование</commonCommands>
   <commonCommands>CommonCommand.ДополнительныеОтчетыАдминистрирование</commonCommands>
@@ -1853,6 +1854,8 @@
   <commonCommands>CommonCommand.ОбъектыНезарегистрированныеПриЗацикливании</commonCommands>
   <commonCommands>CommonCommand.ОтправитьSMS</commonCommands>
   <commonCommands>CommonCommand.ОтправитьПисьмо</commonCommands>
+  <commonCommands>CommonCommand.ОтчетыПоПосещениям</commonCommands>
+  <commonCommands>CommonCommand.ОтчетыПоПродажам</commonCommands>
   <commonCommands>CommonCommand.ПанельОтчетовАдминистрирование</commonCommands>
   <commonCommands>CommonCommand.ПерсональнаяНастройкаПроксиСервера</commonCommands>
   <commonCommands>CommonCommand.ПоказатьРезультатРезервногоКопирования</commonCommands>

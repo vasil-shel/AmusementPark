@@ -9,10 +9,10 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.Аттракционы</content>
   <content>Document.ПосещениеАттракциона</content>
-  <content>Report.ПопулярныеАттракционы</content>
-  <content>Report.СтатистикаПосещений</content>
   <content>AccumulationRegister.АктивныеПосещения</content>
   <content>AccumulationRegister.ПосещенияАттракционов</content>
   <content>Role.ОператорАттракциона</content>
-  <content>Report.ДетализацияПосещений</content>
+  <content>CommonCommand.ОтчетыПоПосещениям</content>
+  <subsystems>ОперативнаяИнформация</subsystems>
+  <subsystems>Статистика</subsystems>
 </mdclass:Subsystem>
