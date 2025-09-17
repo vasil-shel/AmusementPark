@@ -22,5 +22,6 @@
     <types>CatalogRef.ДополнительныеОтчетыИОбработки</types>
     <types>DocumentRef.СообщениеSMS</types>
     <types>CatalogRef.Пользователи</types>
+    <types>CatalogRef.Номенклатура</types>
   </type>
 </mdclass:DefinedType>
