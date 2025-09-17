@@ -19,7 +19,7 @@
   <defaultRoles>Role.АдминистраторСистемы</defaultRoles>
   <defaultRoles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</defaultRoles>
   <vendor>Фирма 1С</vendor>
-  <version>1.0.1.4</version>
+  <version>1.0.1.8</version>
   <reportsVariantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</reportsVariantsStorage>
   <defaultReportForm>CommonForm.ФормаОтчета</defaultReportForm>
   <defaultReportVariantForm>CommonForm.ФормаВариантаОтчета</defaultReportVariantForm>
@@ -1394,6 +1394,7 @@
   <commonModules>CommonModule.УправлениеКонтактнойИнформациейКлиентСервер</commonModules>
   <commonModules>CommonModule.УправлениеКонтактнойИнформациейКлиентСерверЛокализация</commonModules>
   <commonModules>CommonModule.УправлениеКонтактнойИнформациейЛокализация</commonModules>
+  <commonModules>CommonModule.УправлениеКонтактнойИнформациейПА</commonModules>
   <commonModules>CommonModule.УправлениеКонтактнойИнформациейПереопределяемый</commonModules>
   <commonModules>CommonModule.УправлениеКонтактнойИнформациейСлужебный</commonModules>
   <commonModules>CommonModule.УправлениеКонтактнойИнформациейСлужебныйВызовСервера</commonModules>
