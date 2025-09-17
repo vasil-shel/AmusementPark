@@ -15,7 +15,7 @@
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.Клиенты.StandardAttribute.Code</inputByString>
   <inputByString>Catalog.Клиенты.StandardAttribute.Description</inputByString>
-  <inputByString>Catalog.Клиенты.Attribute.УдалитьТелефон</inputByString>
+  <inputByString>Catalog.Клиенты.Attribute.НормализованныйТелефон</inputByString>
   <searchStringModeOnInputByString>AnyPart</searchStringModeOnInputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <characteristics>
@@ -52,10 +52,10 @@
   <defaultObjectForm>Catalog.Клиенты.Form.ФормаЭлемента</defaultObjectForm>
   <defaultListForm>Catalog.Клиенты.Form.ФормаСписка</defaultListForm>
   <attributes uuid="cd11c6b1-f4cb-44b3-8961-527690194e79">
-    <name>УдалитьТелефон</name>
+    <name>НормализованныйТелефон</name>
     <synonym>
       <key>ru</key>
-      <value>(Не использовать)  Телефон</value>
+      <value>НормализованныйТелефон</value>
     </synonym>
     <type>
       <types>String</types>
@@ -65,7 +65,6 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <indexing>Index</indexing>
     <fullTextSearch>Use</fullTextSearch>
