@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="01a53510-c7c0-4841-83db-0cfbb50319b8">
+  <name>УправлениеСвойствамиПереопределяемыйПА</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление свойствами переопределяемый ПА</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

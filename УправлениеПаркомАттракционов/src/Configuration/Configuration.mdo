@@ -19,7 +19,7 @@
   <defaultRoles>Role.АдминистраторСистемы</defaultRoles>
   <defaultRoles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</defaultRoles>
   <vendor>Фирма 1С</vendor>
-  <version>1.0.1.8</version>
+  <version>1.0.1.9</version>
   <reportsVariantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</reportsVariantsStorage>
   <defaultReportForm>CommonForm.ФормаОтчета</defaultReportForm>
   <defaultReportVariantForm>CommonForm.ФормаВариантаОтчета</defaultReportVariantForm>
@@ -1418,6 +1418,7 @@
   <commonModules>CommonModule.УправлениеСвойствами</commonModules>
   <commonModules>CommonModule.УправлениеСвойствамиКлиент</commonModules>
   <commonModules>CommonModule.УправлениеСвойствамиПереопределяемый</commonModules>
+  <commonModules>CommonModule.УправлениеСвойствамиПереопределяемыйПА</commonModules>
   <commonModules>CommonModule.УправлениеСвойствамиПовтИсп</commonModules>
   <commonModules>CommonModule.УправлениеСвойствамиСлужебный</commonModules>
   <commonModules>CommonModule.УправлениеЭлектроннойПочтой</commonModules>
