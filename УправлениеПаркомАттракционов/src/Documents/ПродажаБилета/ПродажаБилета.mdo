@@ -284,7 +284,16 @@
     <name>ПФ_MXL_Реклама</name>
     <synonym>
       <key>ru</key>
-      <value>Билет</value>
+      <value>Реклама</value>
     </synonym>
   </templates>
+  <commands uuid="2f8a3668-d73c-44f2-bb2b-7edaaa8cccca">
+    <name>СписокПродажаБилетов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продажа билетов</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <representation>Auto</representation>
+  </commands>
 </mdclass:Document>
