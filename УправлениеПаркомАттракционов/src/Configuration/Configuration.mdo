@@ -1833,6 +1833,7 @@
   <commonCommands>CommonCommand.ГлавныеОтчеты</commonCommands>
   <commonCommands>CommonCommand.ДобавитьПользователейСервиса</commonCommands>
   <commonCommands>CommonCommand.ДополнительныеОбработкиАдминистрирование</commonCommands>
+  <commonCommands>CommonCommand.ДополнительныеОбработкиГлавное</commonCommands>
   <commonCommands>CommonCommand.ДополнительныеОтчетыАдминистрирование</commonCommands>
   <commonCommands>CommonCommand.ДополнительныеСведенияКоманднаяПанель</commonCommands>
   <commonCommands>CommonCommand.ЖурналУчетаОригиналовПервичныхДокументов</commonCommands>
