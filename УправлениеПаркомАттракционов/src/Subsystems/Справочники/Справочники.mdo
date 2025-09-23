@@ -13,4 +13,6 @@
   <content>Catalog.Номенклатура</content>
   <content>Catalog.па_Пользователи</content>
   <content>CommonModule.НомераТелефоновКлиентСервер</content>
+  <content>CommonCommand.ДополнительныеОтчетыСправочники</content>
+  <content>CommonCommand.ДополнительныеОбработкиСправочники</content>
 </mdclass:Subsystem>

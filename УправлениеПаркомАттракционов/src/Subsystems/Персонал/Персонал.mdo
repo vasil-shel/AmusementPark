@@ -11,4 +11,6 @@
   <content>Document.ПланированиеОтсутствия</content>
   <content>DataProcessor.ПланированиеОтсутствия</content>
   <content>InformationRegister.ПлановыеОтсутствия</content>
+  <content>CommonCommand.ДополнительныеОтчетыПерсонал</content>
+  <content>CommonCommand.ДополнительныеОбработкиПерсонал</content>
 </mdclass:Subsystem>

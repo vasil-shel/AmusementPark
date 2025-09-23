@@ -1834,7 +1834,16 @@
   <commonCommands>CommonCommand.ДобавитьПользователейСервиса</commonCommands>
   <commonCommands>CommonCommand.ДополнительныеОбработкиАдминистрирование</commonCommands>
   <commonCommands>CommonCommand.ДополнительныеОбработкиГлавное</commonCommands>
+  <commonCommands>CommonCommand.ДополнительныеОбработкиПерсонал</commonCommands>
+  <commonCommands>CommonCommand.ДополнительныеОбработкиПосещения</commonCommands>
+  <commonCommands>CommonCommand.ДополнительныеОбработкиПродажи</commonCommands>
+  <commonCommands>CommonCommand.ДополнительныеОбработкиСправочники</commonCommands>
   <commonCommands>CommonCommand.ДополнительныеОтчетыАдминистрирование</commonCommands>
+  <commonCommands>CommonCommand.ДополнительныеОтчетыГлавное</commonCommands>
+  <commonCommands>CommonCommand.ДополнительныеОтчетыПерсонал</commonCommands>
+  <commonCommands>CommonCommand.ДополнительныеОтчетыПосещения</commonCommands>
+  <commonCommands>CommonCommand.ДополнительныеОтчетыПродажи</commonCommands>
+  <commonCommands>CommonCommand.ДополнительныеОтчетыСправочники</commonCommands>
   <commonCommands>CommonCommand.ДополнительныеСведенияКоманднаяПанель</commonCommands>
   <commonCommands>CommonCommand.ЖурналУчетаОригиналовПервичныхДокументов</commonCommands>
   <commonCommands>CommonCommand.ЗагрузитьКомплектПравил</commonCommands>

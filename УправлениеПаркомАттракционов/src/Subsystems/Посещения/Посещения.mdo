@@ -13,6 +13,8 @@
   <content>AccumulationRegister.ПосещенияАттракционов</content>
   <content>Role.ОператорАттракциона</content>
   <content>CommonCommand.ОтчетыПоПосещениям</content>
+  <content>CommonCommand.ДополнительныеОбработкиПосещения</content>
+  <content>CommonCommand.ДополнительныеОтчетыПосещения</content>
   <subsystems>ОперативнаяИнформация</subsystems>
   <subsystems>Статистика</subsystems>
 </mdclass:Subsystem>

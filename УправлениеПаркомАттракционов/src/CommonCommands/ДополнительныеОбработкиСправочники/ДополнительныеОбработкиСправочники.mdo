@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2d7a1e65-7312-480c-8232-4744d045c30d">
-  <name>ДополнительныеОбработкиГлавное</name>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="297cfa97-1fed-477b-b0c4-01823b6773aa">
+  <name>ДополнительныеОбработкиСправочники</name>
   <synonym>
     <key>ru</key>
     <value>Дополнительные обработки</value>

@@ -24,4 +24,6 @@
   <content>Role.Кассир</content>
   <content>CommonCommand.ОтчетыПоПродажам</content>
   <content>Report.ПродажиПоАттракционам</content>
+  <content>CommonCommand.ДополнительныеОтчетыПродажи</content>
+  <content>CommonCommand.ДополнительныеОбработкиПродажи</content>
 </mdclass:Subsystem>

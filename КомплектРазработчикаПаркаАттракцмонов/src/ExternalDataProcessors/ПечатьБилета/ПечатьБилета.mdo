@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExternalDataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba003133-946e-4e61-a891-c2ffc287190b">
+  <producedTypes>
+    <objectType typeId="f16c6753-cef5-4d20-a6c7-b8896de79877" valueTypeId="a30322a8-9c72-4b01-bf4f-184c387a23a3"/>
+  </producedTypes>
+  <name>ПечатьБилета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать билета</value>
+  </synonym>
+  <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="b413f132-44b3-4a64-9340-86f01ae3bf80"/>
+  <templates uuid="3563b137-d234-4b89-b13a-5a6133389039">
+    <name>ПФ_MXL_Билет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Билет</value>
+    </synonym>
+  </templates>
+</mdclass:ExternalDataProcessor>
