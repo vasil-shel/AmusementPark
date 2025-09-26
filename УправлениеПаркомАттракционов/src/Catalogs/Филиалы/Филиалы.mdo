@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4892ab0b-a4a0-459c-8dad-311c238ab0bf">
+  <producedTypes>
+    <objectType typeId="15bf8ca0-efdf-42b7-aafd-b467aafe3378" valueTypeId="18124455-7a6d-46d8-9650-a6624ac55f25"/>
+    <refType typeId="69c270a6-2ae4-42c7-b86d-65a433def434" valueTypeId="bff37ed0-48e2-40ab-99f9-31dd2af41788"/>
+    <selectionType typeId="82babf4e-c7be-427a-bb4e-895a66e6b788" valueTypeId="f252eaa0-b740-468a-a4b3-52d69fefe674"/>
+    <listType typeId="00168f6a-3bf8-49e5-be5a-b5372ea9442b" valueTypeId="8761a085-b293-42b8-9566-2ab017c143bf"/>
+    <managerType typeId="e00f4fd6-8b6f-4d9b-a669-7615e3ebeeb7" valueTypeId="85a52c69-7301-4ddb-877d-eb3be284eb4c"/>
+  </producedTypes>
+  <name>Филиалы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Филиалы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Филиалы.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Филиалы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Филиал</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

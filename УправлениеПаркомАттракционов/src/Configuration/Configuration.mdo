@@ -2251,6 +2251,7 @@
   <catalogs>Catalog.УчетныеЗаписиСинхронизацииФайлов</catalogs>
   <catalogs>Catalog.УчетныеЗаписиЭлектроннойПочты</catalogs>
   <catalogs>Catalog.Файлы</catalogs>
+  <catalogs>Catalog.Филиалы</catalogs>
   <catalogs>Catalog.ХранилищеДвоичныхДанных</catalogs>
   <catalogs>Catalog.ШаблоныАнкет</catalogs>
   <catalogs>Catalog.ШаблоныСообщений</catalogs>

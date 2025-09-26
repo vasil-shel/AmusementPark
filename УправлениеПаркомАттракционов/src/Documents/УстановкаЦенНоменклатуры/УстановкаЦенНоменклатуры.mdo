@@ -40,7 +40,7 @@
       <value>Ответственный</value>
     </synonym>
     <type>
-      <types>CatalogRef.па_Пользователи</types>
+      <types>CatalogRef.Пользователи</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

@@ -23,5 +23,6 @@
     <types>CatalogRef.ГруппыИсполнителейЗадач</types>
     <types>CatalogRef.УчетныеЗаписиЭлектроннойПочты</types>
     <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
+    <types>CatalogRef.Филиалы</types>
   </type>
 </mdclass:DefinedType>

@@ -15,4 +15,5 @@
   <content>CommonModule.НомераТелефоновКлиентСервер</content>
   <content>CommonCommand.ДополнительныеОтчетыСправочники</content>
   <content>CommonCommand.ДополнительныеОбработкиСправочники</content>
+  <content>Catalog.Филиалы</content>
 </mdclass:Subsystem>

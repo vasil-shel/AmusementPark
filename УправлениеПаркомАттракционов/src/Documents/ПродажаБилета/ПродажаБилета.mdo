@@ -83,7 +83,7 @@
       <value>Ответственный</value>
     </synonym>
     <type>
-      <types>CatalogRef.па_Пользователи</types>
+      <types>CatalogRef.Пользователи</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -159,6 +159,22 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2fe60ce9-36d3-41eb-be72-13fd90ce1088">
+    <name>Филиал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Филиал</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Филиалы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
