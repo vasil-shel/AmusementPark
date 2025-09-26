@@ -13,6 +13,9 @@
         <for>
           <role>Role.па_ПолныеПрава</role>
         </for>
+        <for>
+          <role>Role.АдминистраторСистемы</role>
+        </for>
       </visibility>
     </items>
     <items>
