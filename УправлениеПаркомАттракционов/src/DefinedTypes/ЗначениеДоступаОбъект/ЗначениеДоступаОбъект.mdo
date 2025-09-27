@@ -9,10 +9,10 @@
     <value>Значение доступа объект</value>
   </synonym>
   <type>
+    <types>CatalogObject.Филиалы</types>
     <types>CatalogObject.УчетныеЗаписиЭлектроннойПочты</types>
     <types>ChartOfCharacteristicTypesObject.ДополнительныеРеквизитыИСведения</types>
     <types>CatalogObject.ДополнительныеОтчетыИОбработки</types>
     <types>CatalogObject.ИдентификаторыОбъектовМетаданных</types>
-    <types>CatalogObject.Филиалы</types>
   </type>
 </mdclass:DefinedType>

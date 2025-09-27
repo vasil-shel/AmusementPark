@@ -11,6 +11,7 @@
   <type>
     <types>CatalogObject.СообщениеSMSПрисоединенныеФайлы</types>
     <types>CatalogObject.ВерсииФайлов</types>
+    <types>CatalogObject.Филиалы</types>
     <types>CatalogObject.ПапкиФайлов</types>
     <types>CatalogObject.ШаблоныСообщений</types>
     <types>CatalogObject.УчетныеЗаписиЭлектроннойПочты</types>
@@ -40,6 +41,5 @@
     <types>TaskObject.ЗадачаИсполнителя</types>
     <types>CatalogObject.ПапкиЭлектронныхПисем</types>
     <types>CatalogObject.Пользователи</types>
-    <types>CatalogObject.Филиалы</types>
   </type>
 </mdclass:DefinedType>

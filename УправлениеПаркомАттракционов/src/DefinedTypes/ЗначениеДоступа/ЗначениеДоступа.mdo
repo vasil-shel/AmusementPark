@@ -14,6 +14,7 @@
     <types>CatalogRef.ВнешниеПользователи</types>
     <types>CatalogRef.КлючиДоступа</types>
     <types>CatalogRef.ИдентификаторыОбъектовРасширений</types>
+    <types>CatalogRef.Филиалы</types>
     <types>CatalogRef.ГруппыВнешнихПользователей</types>
     <types>CatalogRef.ГруппыПользователей</types>
     <types>EnumRef.ДополнительныеЗначенияДоступа</types>
@@ -23,6 +24,5 @@
     <types>CatalogRef.ГруппыИсполнителейЗадач</types>
     <types>CatalogRef.УчетныеЗаписиЭлектроннойПочты</types>
     <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
-    <types>CatalogRef.Филиалы</types>
   </type>
 </mdclass:DefinedType>

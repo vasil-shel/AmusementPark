@@ -24,8 +24,10 @@
     <types>CatalogRef.ЭлектронноеПисьмоВходящееПрисоединенныеФайлы</types>
     <types>CatalogRef.ЗначенияСвойствОбъектовИерархия</types>
     <types>TaskRef.ЗадачаИсполнителя</types>
+    <types>DocumentRef.ПродажаБилета</types>
     <types>CatalogRef.ПользовательскиеНастройкиОтчетов</types>
     <types>CatalogRef.ЗначенияСвойствОбъектов</types>
+    <types>CatalogRef.Филиалы</types>
     <types>CatalogRef.ГруппыВнешнихПользователей</types>
     <types>CatalogRef.ПравилаОбработкиЭлектроннойПочты</types>
     <types>CatalogRef.ЗапланированноеВзаимодействиеПрисоединенныеФайлы</types>
@@ -47,7 +49,5 @@
     <types>CatalogRef.ПрофилиГруппДоступа</types>
     <types>CatalogRef.ТелефонныйЗвонокПрисоединенныеФайлы</types>
     <types>CatalogRef.ШаблоныСообщенийПрисоединенныеФайлы</types>
-    <types>CatalogRef.Филиалы</types>
-    <types>DocumentRef.ПродажаБилета</types>
   </type>
 </mdclass:DefinedType>

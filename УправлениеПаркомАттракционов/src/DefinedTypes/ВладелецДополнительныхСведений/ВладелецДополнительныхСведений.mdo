@@ -9,6 +9,7 @@
     <value>Владелец дополнительных сведений</value>
   </synonym>
   <type>
+    <types>CatalogRef.Номенклатура</types>
     <types>DocumentRef.ЭлектронноеПисьмоИсходящее</types>
     <types>DocumentRef.ЗапланированноеВзаимодействие</types>
     <types>CatalogRef.ПапкиФайлов</types>
@@ -22,6 +23,5 @@
     <types>CatalogRef.ДополнительныеОтчетыИОбработки</types>
     <types>DocumentRef.СообщениеSMS</types>
     <types>CatalogRef.Пользователи</types>
-    <types>CatalogRef.Номенклатура</types>
   </type>
 </mdclass:DefinedType>

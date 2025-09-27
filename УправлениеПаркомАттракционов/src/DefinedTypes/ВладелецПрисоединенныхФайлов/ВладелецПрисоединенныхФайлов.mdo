@@ -15,14 +15,14 @@
     <types>CatalogRef.ПапкиФайлов</types>
     <types>DocumentRef.ЭлектронноеПисьмоВходящее</types>
     <types>DocumentRef.ТелефонныйЗвонок</types>
+    <types>DocumentRef.ПродажаБилета</types>
     <types>DocumentRef.Встреча</types>
+    <types>CatalogRef.Клиенты</types>
     <types>CatalogRef.МашиночитаемыеДоверенности</types>
     <types>CatalogRef.ШаблоныСообщений</types>
     <types>DocumentRef.СообщениеSMS</types>
-    <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
-    <types>DocumentRef.ПродажаБилета</types>
-    <types>DocumentRef.УстановкаЦенНоменклатуры</types>
-    <types>CatalogRef.Клиенты</types>
     <types>CatalogRef.Аттракционы</types>
+    <types>DocumentRef.УстановкаЦенНоменклатуры</types>
+    <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
   </type>
 </mdclass:DefinedType>

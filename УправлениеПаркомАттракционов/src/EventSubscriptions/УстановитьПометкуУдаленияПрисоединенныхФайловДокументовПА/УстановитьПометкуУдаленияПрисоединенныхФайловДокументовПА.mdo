@@ -6,8 +6,8 @@
     <value>Установить пометку удаления присоединенных файлов документов (Парк аттракционов)</value>
   </synonym>
   <source>
-    <types>DocumentObject.ПродажаБилета</types>
     <types>DocumentObject.УстановкаЦенНоменклатуры</types>
+    <types>DocumentObject.ПродажаБилета</types>
   </source>
   <event>BeforeWrite</event>
   <handler>CommonModule.РаботаСФайлами.УстановитьПометкуУдаленияПрисоединенныхФайловДокументов</handler>

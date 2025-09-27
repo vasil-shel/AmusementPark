@@ -13,8 +13,8 @@
     <types>CatalogObject.ШаблоныСообщений</types>
     <types>BusinessProcessObject.Задание</types>
     <types>CatalogObject.МашиночитаемыеДоверенности</types>
+    <types>CatalogObject.Аттракционы</types>
     <types>CatalogObject.ИдентификаторыОбъектовМетаданных</types>
     <types>CatalogObject.Клиенты</types>
-    <types>CatalogObject.Аттракционы</types>
   </type>
 </mdclass:DefinedType>

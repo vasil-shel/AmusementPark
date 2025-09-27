@@ -521,12 +521,12 @@
       <horizontalAlign>Left</horizontalAlign>
     </autoCommandBar>
     <handlers>
-      <event>OnActivateRow</event>
-      <name>СписокПриАктивизацииСтроки</name>
-    </handlers>
-    <handlers>
       <event>Selection</event>
       <name>СписокВыбор</name>
+    </handlers>
+    <handlers>
+      <event>OnActivateRow</event>
+      <name>СписокПриАктивизацииСтроки</name>
     </handlers>
     <searchStringAddition>
       <visible>true</visible>

@@ -12,16 +12,16 @@
     <types>CatalogRef.ЭлектронноеПисьмоИсходящееПрисоединенныеФайлы</types>
     <types>CatalogRef.МашиночитаемыеДоверенностиПрисоединенныеФайлы</types>
     <types>CatalogRef.ЭлектронноеПисьмоВходящееПрисоединенныеФайлы</types>
+    <types>CatalogRef.АттракционыПрисоединенныеФайлы</types>
     <types>CatalogRef.ЗапланированноеВзаимодействиеПрисоединенныеФайлы</types>
+    <types>CatalogRef.УстановкаЦенНоменклатурыПрисоединенныеФайлы</types>
     <types>CatalogRef.Файлы</types>
     <types>CatalogRef.СообщениеSMSПрисоединенныеФайлы</types>
+    <types>CatalogRef.ПродажаБилетаПрисоединенныеФайлы</types>
+    <types>CatalogRef.КлиентыПрисоединенныеФайлы</types>
     <types>CatalogRef.ВстречаПрисоединенныеФайлы</types>
     <types>CatalogRef.ВерсииФайлов</types>
     <types>CatalogRef.ТелефонныйЗвонокПрисоединенныеФайлы</types>
     <types>CatalogRef.ШаблоныСообщенийПрисоединенныеФайлы</types>
-    <types>CatalogRef.ПродажаБилетаПрисоединенныеФайлы</types>
-    <types>CatalogRef.УстановкаЦенНоменклатурыПрисоединенныеФайлы</types>
-    <types>CatalogRef.КлиентыПрисоединенныеФайлы</types>
-    <types>CatalogRef.АттракционыПрисоединенныеФайлы</types>
   </type>
 </mdclass:DefinedType>

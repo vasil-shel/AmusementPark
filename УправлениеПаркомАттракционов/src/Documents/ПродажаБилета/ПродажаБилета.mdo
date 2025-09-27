@@ -310,6 +310,7 @@
       <value>Продажа билетов</value>
     </synonym>
     <group>ActionsPanelTools</group>
+    <commandParameterType/>
     <representation>Auto</representation>
   </commands>
 </mdclass:Document>
