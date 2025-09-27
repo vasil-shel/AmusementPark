@@ -40,5 +40,6 @@
     <types>TaskObject.ЗадачаИсполнителя</types>
     <types>CatalogObject.ПапкиЭлектронныхПисем</types>
     <types>CatalogObject.Пользователи</types>
+    <types>CatalogObject.Филиалы</types>
   </type>
 </mdclass:DefinedType>

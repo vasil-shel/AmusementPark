@@ -16,5 +16,6 @@
     <types>DocumentObject.СообщениеSMS</types>
     <types>DocumentObject.ТелефонныйЗвонок</types>
     <types>DocumentObject.ЭлектронноеПисьмоИсходящее</types>
+    <types>DocumentObject.ПродажаБилета</types>
   </type>
 </mdclass:DefinedType>
