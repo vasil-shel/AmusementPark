@@ -11,5 +11,9 @@
       <commands>CommonCommand.ГлавныеОтчеты</commands>
       <commands>CommonCommand.ДополнительныеОтчетыГлавное</commands>
     </placementFragments>
+    <placementFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Catalog.Филиалы.StandardCommand.OpenList</commands>
+    </placementFragments>
   </commandsPlacement>
 </cmi:CommandInterface>
