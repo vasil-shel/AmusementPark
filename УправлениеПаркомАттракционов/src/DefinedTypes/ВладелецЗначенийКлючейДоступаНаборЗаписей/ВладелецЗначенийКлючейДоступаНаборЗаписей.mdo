@@ -21,5 +21,6 @@
     <types>InformationRegisterRecordSet.ИсполнителиЗадач</types>
     <types>InformationRegisterRecordSet.РезультатыПроверкиУчета</types>
     <types>InformationRegisterRecordSet.СоставыГруппПользователей</types>
+    <types>AccumulationRegisterRecordSet.Продажи</types>
   </type>
 </mdclass:DefinedType>

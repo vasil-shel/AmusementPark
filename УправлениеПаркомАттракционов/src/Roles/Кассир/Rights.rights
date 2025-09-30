@@ -4,6 +4,24 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
+		<name>Report.ПродажиПоАттракционам</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>AccumulationRegister.Продажи.Dimension.Номенклатура</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.Номенклатура</name>
 		<right>
 			<name>Read</name>
@@ -62,6 +80,28 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.ВидыАттракционов</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InputByString</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>AccumulationRegister.Продажи.Dimension.Клиент</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Document.ПродажаБилета.Command.СписокПродажаБилетов</name>
 		<right>
 			<name>View</name>
@@ -95,6 +135,56 @@
 		<right>
 			<name>Read</name>
 			<value>true</value>
+			<restrictionByCondition>
+				<condition>#Если &amp;ОграничениеДоступаНаУровнеЗаписейУниверсально #Тогда
+	  #ДляРегистра("ИдентификаторыОбъектовМетаданных.РегистрНакопленияПродажи", "Филиал", "", "", "", "")
+	  #Иначе
+	  ГДЕ ЛОЖЬ
+	  #КонецЕсли</condition>
+			</restrictionByCondition>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>false</value>
+			<restrictionByCondition>
+				<condition>#Если &amp;ОграничениеДоступаНаУровнеЗаписейУниверсально #Тогда
+	  #ДляРегистра("ИдентификаторыОбъектовМетаданных.РегистрНакопленияПродажи", "Филиал", "", "", "", "")
+	  #Иначе
+	  ГДЕ ЛОЖЬ
+	  #КонецЕсли</condition>
+			</restrictionByCondition>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>AccumulationRegister.Продажи.StandardAttribute.Active</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>AccumulationRegister.Продажи.StandardAttribute.LineNumber</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>AccumulationRegister.Продажи.StandardAttribute.Recorder</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>AccumulationRegister.Продажи.StandardAttribute.Period</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
@@ -219,6 +309,27 @@
 		<right>
 			<name>Get</name>
 			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>AccumulationRegister.Продажи.Dimension.ВидАттракциона</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>AccumulationRegister.Продажи.Resource.Сумма</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>AccumulationRegister.Продажи.Dimension.Филиал</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
 		</right>
 	</object>
 	<object>
