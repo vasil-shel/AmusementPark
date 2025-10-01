@@ -786,6 +786,7 @@
   <roles>Role.БазовыеПраваВнешнихПользователейБСП</roles>
   <roles>Role.ВыводНаПринтерФайлБуферОбмена</roles>
   <roles>Role.ВыполнениеСинхронизацииДанных</roles>
+  <roles>Role.ДиректорФилиала</roles>
   <roles>Role.ДобавлениеИзменениеАдресныхСведений</roles>
   <roles>Role.ДобавлениеИзменениеАктовОбУничтоженииПерсональныхДанных</roles>
   <roles>Role.ДобавлениеИзменениеБанков</roles>
@@ -2269,6 +2270,7 @@
   <documents>Document.ПланированиеОтсутствия</documents>
   <documents>Document.ПосещениеАттракциона</documents>
   <documents>Document.ПродажаБилета</documents>
+  <documents>Document.СводныеПоказателиФилиалов</documents>
   <documents>Document.СогласиеНаОбработкуПерсональныхДанных</documents>
   <documents>Document.СообщениеSMS</documents>
   <documents>Document.ТелефонныйЗвонок</documents>
