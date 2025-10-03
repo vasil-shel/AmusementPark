@@ -99,6 +99,7 @@
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
       <extInfo xsi:type="form:InputFieldExtInfo">
+        <width>10</width>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <wrap>true</wrap>
@@ -857,6 +858,7 @@
     <dataPath xsi:type="form:DataPath">
       <segments>Объект.Комментарий</segments>
     </dataPath>
+    <titleLocation>Left</titleLocation>
     <extendedTooltip>
       <name>КомментарийРасширеннаяПодсказка</name>
       <id>15</id>

@@ -26,4 +26,5 @@
   <content>Report.ПродажиПоАттракционам</content>
   <content>CommonCommand.ДополнительныеОтчетыПродажи</content>
   <content>CommonCommand.ДополнительныеОбработкиПродажи</content>
+  <content>Document.СводныеПоказателиФилиалов</content>
 </mdclass:Subsystem>
