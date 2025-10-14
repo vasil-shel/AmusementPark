@@ -49,5 +49,6 @@
     <types>CatalogRef.ПрофилиГруппДоступа</types>
     <types>CatalogRef.ТелефонныйЗвонокПрисоединенныеФайлы</types>
     <types>CatalogRef.ШаблоныСообщенийПрисоединенныеФайлы</types>
+    <types>DocumentRef.СводныеПоказателиФилиалов</types>
   </type>
 </mdclass:DefinedType>

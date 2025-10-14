@@ -17,5 +17,6 @@
     <types>DocumentObject.ТелефонныйЗвонок</types>
     <types>DocumentObject.ПродажаБилета</types>
     <types>DocumentObject.ЭлектронноеПисьмоИсходящее</types>
+    <types>DocumentObject.СводныеПоказателиФилиалов</types>
   </type>
 </mdclass:DefinedType>
