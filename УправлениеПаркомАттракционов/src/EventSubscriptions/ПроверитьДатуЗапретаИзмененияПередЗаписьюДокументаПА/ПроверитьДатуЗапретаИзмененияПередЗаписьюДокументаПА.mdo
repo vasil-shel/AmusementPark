@@ -10,5 +10,5 @@
     <types>DocumentObject.ПродажаБилета</types>
   </source>
   <event>BeforeWrite</event>
-  <handler>CommonModule.ДатыЗапретаИзменения.ПроверитьДатуЗапретаИзмененияПередЗаписьюДокументаПАПередЗаписью</handler>
+  <handler>CommonModule.ДатыЗапретаИзменения.ПроверитьДатуЗапретаИзмененияПередЗаписьюДокумента</handler>
 </mdclass:EventSubscription>

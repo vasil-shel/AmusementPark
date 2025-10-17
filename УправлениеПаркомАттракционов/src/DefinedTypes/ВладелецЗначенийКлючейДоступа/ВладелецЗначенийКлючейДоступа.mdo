@@ -50,5 +50,6 @@
     <types>CatalogRef.ТелефонныйЗвонокПрисоединенныеФайлы</types>
     <types>CatalogRef.ШаблоныСообщенийПрисоединенныеФайлы</types>
     <types>DocumentRef.СводныеПоказателиФилиалов</types>
+    <types>DocumentRef.ПосещениеАттракциона</types>
   </type>
 </mdclass:DefinedType>

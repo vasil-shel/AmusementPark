@@ -18,5 +18,6 @@
     <types>DocumentObject.ПродажаБилета</types>
     <types>DocumentObject.ЭлектронноеПисьмоИсходящее</types>
     <types>DocumentObject.СводныеПоказателиФилиалов</types>
+    <types>DocumentObject.ПосещениеАттракциона</types>
   </type>
 </mdclass:DefinedType>
